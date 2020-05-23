@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void go(View view) {
+
         if(sw.isChecked() && tb.isChecked())
             getWindow().getDecorView().setBackgroundColor(Color.RED);
         if(!sw.isChecked() && !tb.isChecked())
